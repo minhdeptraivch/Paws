@@ -1,4 +1,4 @@
-# Paws
+# Hải Minh Xin Chào
 
 > Lightweight and simple static site template for researchers in the Digital Humanities.
 
