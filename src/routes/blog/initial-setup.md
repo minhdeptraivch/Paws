@@ -1,96 +1,63 @@
 ---
 layout: blog
-title: Initial Setup
-description: Things you need to change in the code to get things up and running
-  for the first time
+title: Tin tức thể thao sáng 6-9
+description: the thao
 tags: []
-slug: initial-setup
-publishDate: 2021-09-17
-lastUpdated: 2021-09-17
+slug: tin-tuc
+publishDate: 2024-09-05T17:00:00.000Z
+lastUpdated: 2024-09-05T17:00:00.000Z
 openGraphImage: OGExample.png
 ---
+<!--StartFragment-->
 
-## TL;DR
+# Tin tức thể thao sáng 6-9: Ronaldo ghi bàn thứ 900 trong sự nghiệp
 
-- Click "Use this template" in [GitHub](https://github.com/codexfelis/paws-template)
-- [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) that repo you just made
-- fill in values in `src/lib/variables.js`
-- delete the documentation, write some content of your own
-- check for any remaining TODO comments
-- [Go deploy the thing](/blog/deployment)!
+## Ronaldo nổ súng đánh dấu bàn thắng thứ 900; huyền thoại bóng đá nữ giải nghệ... là những tin tức thể thao đáng chú ý sáng 6-9.
 
-## Getting started
+[![Tin tức thể thao sáng 6-9: Ronaldo ghi bàn thứ 900 trong sự nghiệp - Ảnh 1.](https://cdn.tuoitre.vn/thumb_w/730/471584752817336320/2024/9/6/cristiano-ronaldo-bo-dao-nha-uefa-nations-league-1725571127595873247296.jpg)](https://cdn.tuoitre.vn/471584752817336320/2024/9/6/cristiano-ronaldo-bo-dao-nha-uefa-nations-league-1725571127595873247296.jpg)
 
-Once you have clicked "Use this template" on [GitHub](https://github.com/codexfelis/paws-template). There's a few bits and pieces you need to set up to make the site yours. It is probably easiest to clone the repository to your local machine to do this, although it can be done via the GitHub UI (particularly if you go to `https://github.dev/YourName/YourRepo` to use the web editor).
+Ronaldo trở thành cầu thủ đầu tiên cán mốc 900 bàn thắng trong sự nghiệp - Ảnh: REUTERS
 
-## Running the dev server
+## Ronaldo ghi bàn thứ 900, Bồ Đào Nha đánh bại Croatia
 
-This is optional, but useful if you intend to change any of the code rather than just content.
+Tại lượt trận đầu tiên bảng A1 nhóm A UEFA Nations League, Bồ Đào Nha đã vượt qua Croatia 2-1. Điểm nhấn của trận đấu một lần nữa thuộc về ngôi sao Cristiano [Ronaldo](https://tuoitre.vn/ronaldo.html "Ronaldo").
 
-The first thing you need to do is make sure you have [NodeJS](https://nodejs.org/en/download/) and npm installed, with Node at least version 14.13 or 16.anything. Check this:
+Phút 34, anh lao lên đón quả tạt của Rafael Leao rồi đệm bóng cận thành nâng tỉ số lên 2-0. Đó là pha lập công đặc biệt, bởi Ronaldo chính thức cán mốc 900 bàn thắng trong sự nghiệp.
 
-```sh
-$ node --version
-v16.9.1
-```
+* #### [Ronaldo tuyên bố 'treo giày' trong... 2 hoặc 3 năm nữa](https://tuoitre.vn/ronaldo-tuyen-bo-treo-giay-trong-2-hoac-3-nam-nua-20240827211019907.htm)
 
-Now you need to install the project dependencies by running `npm install` and waiting for a bit. This may look like a lot of dependencies, but they are all only used at development time.
+Sau khi ghi bàn, anh đã quỳ xuống sân và ôm mặt như muốn khóc. Sau đó, Ronaldo đã nở nụ cười để ăn mừng cùng các đồng đội và khán giả.
 
-Once this is complete, you can run the development server with `npm run dev`. This means you can look at the running site as you are working on it, at `http://localhost:3000/` in your browser. SvelteKit also provides hot reloading, so you see changes immediately without needing to refresh the page.
+Hai bàn thắng còn lại của trận đấu khá hy hữu, khi Diogo Dalot vừa ghi bàn cho Bồ Đào Nha nhưng đồng thời cũng vừa đốt lưới nhà.
 
-Note that if you make changes to some of the configuration files in the root of the repository, you will probably need to restart the dev server, but otherwise it should reload everything.
+Gần đây, Ronaldo từng tuyên bố chưa muốn dừng lại mà nỗ lực đạt cột mốc 1.000 bàn thắng trong sự nghiệp.
 
-## Variables
+## Huyền thoại bóng đá Mỹ Alex Morgan giải nghệ
 
-There's a few key properties of your site that you need to fill in the file `src/lib/variables.js`
+[![Tin tức thể thao sáng 6-9: Ronaldo ghi bàn thứ 900 trong sự nghiệp - Ảnh 2.](https://cdn.tuoitre.vn/thumb_w/730/471584752817336320/2024/9/6/alex-morgan-bong-da-nu-my--17255711275981543452994.jpg)](https://cdn.tuoitre.vn/471584752817336320/2024/9/6/alex-morgan-bong-da-nu-my--17255711275981543452994.jpg)
 
-```js
-export const variables = {
-	// URL where live site is deployed, used in sitemap, RSS feed
-	siteUrl: 'http://www.example.com',
-	// Used in page titles, helps with SEO
-	projectName: 'My Cool Project!',
-	// Brief website description, used in description fields in RSS, HTML head. Helps with SEO
-	siteDescription: 'My cool project is a project about stuff that does things.',
-	// The twitter username for you/project/department
-	twitter: 'codexfelis',
-	// Whatever GitHub you want to link to in the footer
-	github: 'https://github.com/codexfelis/paws-template',
-	// URL segment for the content you update regularly
-	// If you change this, you also need to change the file/folder names
-	contentPath: 'blog'
-};
-```
+Alex Morgan giã từ sự nghiệp ở tuổi 35 - Ảnh: US SOCCER
 
-Hopefully this is all self-explanatory - fill in things in the same format as the examples.
-If you change `contentPath`, you need to rename `src/routes/blog` folder to whatever you chose, then do a global find-replace for `blog` to make sure all the text in the website (navbar etc), and all the references in the CMS (if you are using it) reflects your new name.
+Tiền đạo người Mỹ Alex Morgan thông báo giải nghệ ở tuổi 35. Trong sự nghiệp kéo dài suốt 15 năm của mình, cô gặt hái không ít những danh hiệu cao quý.
 
-### I don't want to associate a Twitter account with this website
+Trong đó, đáng chú ý nhất là 2 chức vô địch World Cup bóng đá nữ (2015, 2019) và tấm HCV Olympic 2012 cùng tuyển nữ Mỹ. Trong màu áo tuyển quốc gia, [Alex Morgan](https://tuoitre.vn/kim-thanh-toi-nghien-cuu-goc-sut-phat-den-cua-alex-morgan-tu-truoc-tran-20230722112801584.htm "Alex Morgan") có 224 lần ra sân và ghi đến 123 bàn thắng.
 
-No problem, you can delete the `twitter` line from the above file, then do a global search for `variables.twitter` and delete the bits of HTML where that appears - the Twitter share button in the `BlogLayout` component, a link in the `Footer` component and the `twitter:site` meta tag in the `Seo` component.
+Thủ môn đội tuyển nữ Việt Nam Trần Thị Kim Thanh từng có kỷ niệm đáng nhớ với Alex Morgan tại World Cup bóng đá nữ 2023. Khi đó, Kim Thanh từng cản thành công quả phạt đền của tiền đạo này.
 
-There are other mentions of Twitter in the [SEO component](/blog/seo), but this is really [OpenGraph](https://ogp.me/) to make your link previews look good anywhere links to your website are shared.
+Ngoài thông báo giải nghệ, Alex Morgan còn cho biết mình đang mang thai lần thứ 2.
 
-## Add your pages
+## Gia đình runner bị thiêu sống đi đòi công lý
 
-Obviously, you will want to replace the words from this template to not just be the documentation!
-Don't worry, you can always see the documentation live at [paws-codexfelis-dev.netlify.app](https://paws.codexfelis.dev) and [the demo site repository](https://github.com/codexfelis/paws-demo)
+[![Tin tức thể thao sáng 6-9: Ronaldo ghi bàn thứ 900 trong sự nghiệp - Ảnh 3.](https://cdn.tuoitre.vn/thumb_w/730/471584752817336320/2024/9/6/rebecca-cheptegei-17255711604121210836723.jpg)](https://cdn.tuoitre.vn/471584752817336320/2024/9/6/rebecca-cheptegei-17255711604121210836723.jpg)
 
-The content (almost) everywhere is written in a [special kind of markdown](https://mdsvex.pngwn.io/) that allows for including Svelte components and snippets of javascript, and remember that HTML is valid markdown if you want to include something special.
-The existing `index.md` is a good example of the kinds of things you can do.
+Ông Joseph Cheptegei mong công lý được thực thi sau khi con gái bị sát hại - Ảnh: REUTERS
 
-If you are using the [CMS](/blog/cms), you can edit blog posts in the web-based editor, but you can also write and edit locally on your own computer.
-Other pages (about, the homepage, anything you add) aren't connected to the CMS (yet), so you will need to edit these locally or change your CMS config to include them.
+Hôm 5-9, VĐV marathon người Uganda [Rebecca Cheptegei](https://tuoitre.vn/vdv-du-olympic-2024-qua-doi-sau-khi-bi-ban-trai-cu-thieu-song-20240905174414481.htm "Rebecca Cheptegei") đã qua đời do bị bỏng nặng. Cuối tuần trước, cô bị bạn trai là Dickson Marangach tẩm xăng và thiêu sống. Vụ việc xảy ra tại đất nước Kenya.
 
-Sveltekit uses "file-based routing", which basically means that the path to a file under the `src/routes` directory is the same as the URL to that file, so for example `src/routes/about.md` maps to `https://www.example.com/about` (without the file extension).
-This makes it pretty easy to add a new top-level page, although don't forget to add a link to that page in the Navbar component `src/lib/Navbar.svelte` `navItems` data structure so you can get to it.
+Sau khi Cheptegei qua đời, gia đình cô đã lên tiếng yêu cầu công lý phải được thực thi. "Tôi rất đau xót vì vừa mất con gái. Tôi cần sự giúp đỡ của các bạn để khiến kẻ đã hãm hại Cheptegei phải bị xét xử", ông Joseph Cheptegei - cha của nữ VĐV quá cố, phát biểu với báo chí.
 
-## TODO comments
+Hiện giới chức Kenya vẫn đang tiến hành điều tra vụ việc. Theo cảnh sát địa phương, Rebecca Cheptegei và bạn trai đã nhiều lần cãi nhau to trước khi cô bị sát hại.
 
-There's a few additional bits of content that you need to update, which you can find with a global search (ctrl-shift-F) for "todo".
-This is mostly the stuff that goes into the [Seo component](/blog/seo), which determines the title and description of pages for SEO juice and better link previews on Twitter.
-You can see an example in the title (in your browser tab bar) of the homepage of this site.
+Cách đây vài tuần, Rebecca Cheptegei vẫn còn tham dự nội dung marathon tại Olympic Paris 2024, về đích ở vị trí thứ 44.
 
-## Next steps
-
-Maybe you want to go on to add your [logo and other image assets](/blog/assets), or [change the fonts and colours](/blog/theming), [deploy your fancy new site](/blog/deployment) or [configure the CMS](/blog/cms).
+<!--EndFragment-->
